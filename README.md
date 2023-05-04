@@ -1,1 +1,7 @@
 # Assignment-letsupgrade-2
+CREATE TABLE todo_list (
+  task_id SERIAL PRIMARY KEY,
+  task_name VARCHAR(255) NOT NULL,
+  description TEXT,
+  is_completed BOOLEAN DEFAULT FALSE
+);
